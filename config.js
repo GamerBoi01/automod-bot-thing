@@ -1,12 +1,12 @@
 module.exports = {
-  OWNER_IDS: [], // Bot owner ID's
-  PREFIX: "!", // Default prefix for the bot
+  OWNER_IDS: [888868334949531688], // Bot owner IDs
+  PREFIX: "m!", // Default prefix for the bot
   SUPPORT_SERVER: "", // Your bot support server
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    MESSAGE: "GamerCITY", // Your bot status message
   },
   DASHBOARD: {
     enabled: false, // enable or disable dashboard
